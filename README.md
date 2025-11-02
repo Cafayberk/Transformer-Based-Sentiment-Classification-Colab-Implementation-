@@ -1,21 +1,21 @@
-# 🧠 Transformer-Based Sentiment Classification (Colab Implementation)
+# Transformer-Based Sentiment Classification (Colab Implementation)
 
 This project implements **sentiment analysis** using a **Transformer Encoder model** built with **PyTorch**.  
 It is fully developed and tested in **Google Colab**, featuring a simple dataset of positive and negative sentences.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ Transformer Encoder architecture using PyTorch  
-- ✅ Custom dataset generation (positive and negative sentences)  
-- ✅ Training and evaluation pipeline  
-- ✅ Accuracy and loss monitoring  
-- ✅ GPU-compatible for faster training in Colab  
+- Transformer Encoder architecture using PyTorch  
+- Custom dataset generation (positive and negative sentences)  
+- Training and evaluation pipeline  
+- Accuracy and loss monitoring  
+- GPU-compatible for faster training in Colab  
 
 ---
 
-## 🧩 Technologies Used
+## Technologies Used
 
 - **Python 3.x**  
 - **PyTorch**  
@@ -25,7 +25,7 @@ It is fully developed and tested in **Google Colab**, featuring a simple dataset
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 Transformer-Sentiment-Classification/
 │
@@ -40,7 +40,7 @@ Transformer-Sentiment-Classification/
 
 ---
 
-## 🧠 Model Overview
+## Model Overview
 
 The model uses the **`nn.TransformerEncoder`** architecture to classify text as **positive** or **negative**.  
 A linear output layer with a sigmoid activation function is used for binary classification.
